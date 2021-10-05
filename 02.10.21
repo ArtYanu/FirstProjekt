@@ -1,0 +1,8 @@
+price = int(input('ведите число: '))
+
+if 500 <= price < 1000:
+    print(f'Cумма с учётом скидки в 5%:  {price  * 0.95}')
+elif price >= 1000:
+    print(f'Cумма с учётом скидки в 7%:  {price  * 0.93}')
+else:
+    print(f'Cумма: {price}, скидка не предоставляется!')
